@@ -1,0 +1,25 @@
+.contact-section {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .contact-section h2 {
+    font-weight: 700;
+  }
+  
+  .contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section .form-control {
+    border-radius: 5px;
+    padding: 10px 15px;
+  }
+  
+  .contact-section button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+ 

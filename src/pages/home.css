@@ -1,0 +1,166 @@
+/* src/styles/Home.css */
+.home {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #003366;
+  }
+  
+  .card-title {
+    font-weight: 600;
+  }
+  .lead p{
+     font-family: 'Poppins', sans-serif;
+      
+  }
+  .h-100{
+    background-color: antiquewhite !important;
+  }
+  .custom-button {
+    border-color: #fbb07ee1;
+    color: black;
+    border-radius: 5px;
+    padding:20px, 20px;
+    background-color:  #fbb07ee1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+  }
+  
+  .custom-button:hover {
+    background-color:  #ff8838e1;
+    color: white;
+  }
+  .nav-button{
+    background-color: azure;
+    color:black;
+    border-radius:5px;
+    padding:10px 20px;
+    font-family: poppins, sans-serif;
+    font-weight:600;
+    border:none;
+    margin:10px;
+    cursor:pointer;
+    transition:background-color 0.3s ease; 
+  }
+  .nav-button:hover{
+    background-color: #f0dbcce1;
+    color: black;
+  }
+  
+  .why-us {
+    background-color: #f8f9fa;
+  }
+  
+  .why-us h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:#222;
+    pointer-events: none;
+    font-family: poppins, sans-serif;
+    padding: 20px;
+    background-color: white;
+    border: none;;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  
+  
+  .why-us .text-center:hover {
+    transform: translateY(-5px);
+  }
+  
+  .why-us i {
+    font-size: 3rem;
+    color: #0d6efd;
+    margin-bottom: 15px;
+  }
+  
+  .why-us h5 {
+    font-weight: 600;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .why-us p {
+    color: #666;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10x;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .testimonial-slide {
+    background-color: #f0dbcce1;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .text-center{
+    font-weight:bold;
+    color: black;
+    font-family: poppins, sans-serif;
+  }
+  .testimonial-slide p {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .testimonial-slide h6 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .testimonial-slide small {
+    color: #888;
+  }
+  .newsletter {
+    background-color: #5782c2c8; /* Bootstrap primary color */
+    color: white;
+    padding: 60px 0;
+  }
+  
+  .newsletter h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .newsletter p {
+    color: black;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .newsletter input.form-control {
+    max-width: 400px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+  }
+  
+  .newsletter input:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+  }
+  
+  .newsletter button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+  }

@@ -1,0 +1,26 @@
+.courses-section {
+    background-color: #f9f9f9;
+  }
+  
+  .courses-section h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .courses-section .card {
+    border: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .courses-section .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .courses-section .card-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .courses-section .btn {
+    margin-top: 10px;
+  }

@@ -1,0 +1,15 @@
+.course-details-section {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .course-details-section h2 {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+  .course-details-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
