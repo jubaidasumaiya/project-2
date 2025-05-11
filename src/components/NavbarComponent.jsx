@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from  '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import { Container} from 'react-bootstrap';
+import './navbarcomponent.css';
 
 const NavbarComponent= () => {
     return (
@@ -21,10 +22,9 @@ const NavbarComponent= () => {
             <Nav.Link  as={Link} to="/courses">Courses</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-
           </Nav>
-          <button className="nav-button">Log In</button>
-          <button className="nav-button">Sign Up</button>
+          <Link to="/login" className="nav-button">Log In</Link>
+          <Link to="/signup" className="nav-button">Sign Up</Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -129,7 +129,7 @@
     color: #888;
   }
   .newsletter {
-    background-color: #5782c2c8; /* Bootstrap primary color */
+    background-color: rgba(229, 206, 123, 0.873); /* Bootstrap primary color */
     color: white;
     padding: 60px 0;
   }

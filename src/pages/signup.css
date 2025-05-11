@@ -1,0 +1,33 @@
+.signup-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f5;
+}
+
+.signup-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.signup-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #222;
+}
+
+.signup-card .form-control {
+  margin-bottom: 15px;
+}
+
+.signup-card .btn-primary {
+  width: 100%;
+  font-weight: bold;
+  padding: 10px;
+}
